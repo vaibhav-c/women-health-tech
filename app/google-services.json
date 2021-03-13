@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "331677202296",
+    "project_id": "new-app-f55f6",
+    "storage_bucket": "new-app-f55f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331677202296:android:0832704069093de6bf3a8d",
+        "android_client_info": {
+          "package_name": "com.vaibhav.fitnessapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331677202296-e7h6rsva4scgen0d3oo7u8qaahc9q004.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vaibhav.fitnessapp",
+            "certificate_hash": "2cb8ca04326d538e2ce35b5f1efc62ba8e60b53e"
+          }
+        },
+        {
+          "client_id": "331677202296-hhs0050u5a8m32n5a1t6anhiqt7ptd1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKSokSDzJeRvz2O-qerl4cMrwEzVu4-jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331677202296-hhs0050u5a8m32n5a1t6anhiqt7ptd1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,5 @@
+Basal Cell Carcinoma
+Melanoma
+Normal Skin
+Squamous Cell Carcinoma
+Skin Cancer

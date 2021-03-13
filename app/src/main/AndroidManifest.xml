@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vaibhav.fitnessapp">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".VideoCallActivity" />
+        <activity android:name=".VideoCallActivityDoctor" />
+        <activity android:name=".MenstrualCycle" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".PayForOrder" />
+        <activity android:name=".PastAppointments" />
+        <activity android:name=".HomeChemist" />
+        <activity android:name=".ViewConfirmAppointments" />
+        <activity android:name=".ViewPrescriptions" />
+        <activity android:name=".HomeDoctor" />
+        <activity android:name=".BookAppointment" />
+        <activity android:name=".MedicalMyths" />
+        <activity android:name=".TypeOfDoctors" />
+        <activity android:name=".ChooseRole" />
+        <activity android:name=".RegisterChemistActivity" />
+        <activity
+            android:name=".DrawerUser"
+            android:label="@string/title_activity_drawer_user"
+            android:theme="@style/Theme.Login_Register.NoActionBar" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RegisterDoctorActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ClassifierActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_FUZ8va6gih810N" />
+    </application>
+
+</manifest>
